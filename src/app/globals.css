@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: 'Inter';
+  margin: 0px;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.hoverable {
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+}
+.hoverable_Customize {
+  &:hover {
+    background-color: "rgb(246,247,248)";
+    cursor: pointer;
+  }
+}
+.hover_Layers{
+  background: rgb(245,246,247);
+}
+

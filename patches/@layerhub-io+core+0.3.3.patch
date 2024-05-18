@@ -1,0 +1,15 @@
+diff --git a/node_modules/@layerhub-io/core/dist/controllers/Events.js b/node_modules/@layerhub-io/core/dist/controllers/Events.js
+index cab1752..e11ed0e 100644
+--- a/node_modules/@layerhub-io/core/dist/controllers/Events.js
++++ b/node_modules/@layerhub-io/core/dist/controllers/Events.js
+@@ -189,7 +189,9 @@ var Events = /** @class */ (function (_super) {
+         }
+         else if (shourcutsManager_1.default.isDelete(event)) {
+             event.preventDefault();
+-            this.editor.objects.remove();
++            console.log('deleted');
++            console.log(this.editor.objects.canvas);
++            // this.editor.objects.remove();
+         }
+         else if (shourcutsManager_1.default.isCtrlC(event)) {
+             event.preventDefault();

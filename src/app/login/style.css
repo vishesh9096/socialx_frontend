@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.flex.h-screen {
+    display: flex; /* Use flexbox layout */
+    height: 100vh; /* Ensure the container takes up the full height of the viewport */
+  }
+  
+  /* Left Pane */
+  .left-pane {
+    flex: 0 0 60%; /* Set the left pane to occupy 60% of the width */
+  }
+  .right-pane {
+    background: white;
+}
+  
+ 
+  
